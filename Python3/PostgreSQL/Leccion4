@@ -1,0 +1,30 @@
+
+
+SELECT * FROM persona WHERE id_persona IN (1,2,3);
+
+INSERT INTO persona(nombre, apellido, email) 
+VALUES('Susana','Lara','alara@gmail.com');
+
+UPDATE persona SET nombre='Ivonne', apellido = 'Esparza', email=NULL;
+DELETE FROM persona WHERE id_persona =3;
+
+
+
+
+import psycopg2
+
+conexion = psycopg2.connect(
+    user='postgres',
+    password='*****',
+    host=127.0.0.1, #'localhost'
+    port=5432,
+    dadabase='test_db'
+)
+
+cursor = conexion.cursor()
+cursor.execute('SELECT * FROM tb_persona')
+registros = cursor.fetchall()
+print(registros)
+
+cursor.close()
+conexion.close()
