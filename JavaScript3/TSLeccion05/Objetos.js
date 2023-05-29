@@ -1,11 +1,11 @@
 let persona = {
-	nombre = 'Lucas',
-	apellido = 'Lavena',
-	edad = 25,
-	email = 'lucaslavena999@gmail.com',
-	idioma = 'ES',
-	function nombreCompleto() {
-		return this.nombre+' '+this.apellido;
+	nombre : 'Lucas',
+	apellido : 'Lavena',
+	edad : 25,
+	email : 'lucaslavena999@gmail.com',
+	idioma : 'ES',
+	 nombreCompleto: function() {
+		return this.nombre +' '+this.apellido;
 	},
 	get nombreYedad(){
 		return 'Nombre: '+this.nombre+' Edad: '+this.edad;
