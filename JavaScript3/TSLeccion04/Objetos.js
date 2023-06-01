@@ -6,10 +6,21 @@ let persona = {
     nombre: 'Carlos',
     apellido: 'Gil',
     email: 'cgil@gmail.com',
-    edad: 30,
+    edad: 28,
+    idioma: 'ES',
+    get lang(){
+      return this.idioma.toUpperCase(); //convierte las minusculas en mayusculas
+    },
+    set lang(lang){
+      this.idioma = lang.toUpperCase();
+    },
     nombreCompleto: function() {
-		return this.nombre +' '+this.apellido;
+      return this.nombre +' '+this.apellido;
+    },
+    get nombreEdad(){
+      return "El nombre es: "+this.nombre +', Edad: '+ this.edad;
     }
+    
 }
 
 console.log('Nombre: '+persona.nombre);
@@ -58,6 +69,82 @@ console.log(personaArray);
 console.log('Distintas formas de imprimir un objeto: forma 4');
 let personaString = JSON.stringify(persona);
 console.log(personaString);
+
+console.log('Comenzamos a utilizar el metodo get');
+console.log(persona.nombreEdad);
+
+console.log('Comenzamos con el metodo get y set para idioma')
+persona.lang = 'en';
+console.log(persona.lang);
+
+function Persona3(nombre, apellido, email){
+  this.nombre = nombre;
+  this.apellido = apellido;
+  this.email = email;
+}
+
+let padre = new Persona3('Gabriel','Valdes','email@gmail.com');
+padre.nombre = 'Luis';
+console.log(padre);
+
+let madre = new Persona3('Laura', 'Contreras', 'lcontrera@gmail.com');
+console.log('madre');
+
+//Diferentes formas de crear objetos
+//caso nro 1
+let miObjeto = new Object();
+//caso nro 2
+let miObjeto2 = {}; //Esta opcion es breve y recomendada
+
+//caso String 1
+let miCadena1 = new String('Hola');
+//caso String2
+let miCadena2 = 'Hola'; //Esta es la sintaxis simplificada y recomendada
+
+//caso con numeros
+let niNumero = new Number(1); //Es farmal no recomendada
+//caso nro2
+let niMumero2 = 1;
+
+//caso boolean 1
+let miBoolean1 = new Boolean(false); //formal
+//caso boolean 2
+let miBoolean2 = false; //Sintaxis recondada
+
+//caso Arreglos 1
+let miArreglo1 = new Array(); //formal
+//caso Arreglos 2
+let miArreglo2 = []; //Sintaxis recomendad
+
+//caso function 1
+let miFuncion1 = new function(){}; //Todo lo despues de new ws considerado objeto
+//caso function 2
+let miFunction2 = function(){}; //Notacion simplificada y recomndada
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
