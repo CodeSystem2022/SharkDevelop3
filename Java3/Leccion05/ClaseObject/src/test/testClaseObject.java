@@ -5,7 +5,7 @@ import domain.Empleado;
 import domain.Escritor;
 import domain.TipoEscritura;
 
-public class testClaseObject {
+public class TestClaseObject {
     public static void main(String[] args) {
         Empleado empleado1 = new Empleado("juan", 2000);
         Empleado empleado2 = new Empleado("Juan", 5000);
