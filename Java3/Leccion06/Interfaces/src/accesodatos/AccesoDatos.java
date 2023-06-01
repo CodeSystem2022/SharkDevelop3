@@ -1,13 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
- */
+
 package accesodatos;
 
-/**
- *
- * @author Magali
- */
 public interface AccesoDatos {
-    
+   int MAX_REGISTRO = 10; //ES PUBLIC FINAL Y STATIC 
+//hay que asignar un valor si o si pq una interface no tiene constructores, solo metodos abstractos
+//cualquier metodo va a ser publico y abstracto, sin cuerpo
+   
+void insertar();
+void listar();
+void actualizar();
+void eliminar();
+
+   
+   
 }
