@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6849b1f-4dcf-4daf-b195-47a5aab42953" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java3/Leccion08/ManejoExcepciones1/src/test/TestExcepciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java3/Leccion08/ManejoExcepciones1/src/test/TestExcepciones.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Magali/PycharmProjects/Tecnicatura3Py/Leccion04/Basededatos"
+    "last_opened_file_path": "C:/Users/Magali/PycharmProjects/Tecnicatura3Py/Leccion07"
   }
 }]]></component>
   <component name="RunManager" selected="Python.v_registros">
