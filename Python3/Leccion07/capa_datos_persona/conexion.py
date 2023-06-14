@@ -1,6 +1,7 @@
 import psycopg2 as bd
-from ..Leccion07.logging1_2 import log
+from logger_base import log
 import sys
+
 
 class Conexion:
     _DATABASE = 'test_bd'
@@ -20,26 +21,28 @@ class Conexion:
                                            password=cls._PASSWORD,
                                            port=cls._DB_PORT,
                                            database=cls._DATABASE)
-                log.debug('Conexión exitosa: {cls._conexion}')
+                log.debug(f'Conexion exitosa: {cls._conexion}')
                 return cls._conexion
             except Exception as e:
-                log.error('Ocurrió un error')
+                log.error(f'Ocurrio un error: {e}')
                 sys.exit()
         else:
-            cls._conexion
+            return cls._conexion
 
     @classmethod
     def obtenerCursor(cls):
         if cls._cursor is None:
             try:
-                cls._cursor= cls.obtenerConexion().cursor()
-                log.debug(f'Se abrió correctamente el cursor: {cls._cursor}')
+                cls._cursor = cls.obtenerConexion().cursor()
+                log.debug(f'Se sabrio correctamente el cursor: {cls._cursor}')
                 return cls._cursor
             except Exception as e:
-                log.error(f'Ocurrió un error {e}')
+                log.error(f'Ocurrio un error: {e}')
                 sys.exit()
         else:
             return cls._cursor
-if __name__=='__main__':
+
+
+if __name__ == '__main__':
     Conexion.obtenerConexion()
     Conexion.obtenerCursor()
