@@ -63,11 +63,11 @@
   </tr>
    <tr>
     <td>Semana 9</td>
-    <td>Alejandra Carballeira/td>
+    <td>Alejandra Carballeira</td>
   </tr>
    <tr>
     <td>Semana <10/td>
-    <td>Magali Cardozo/td>
+    <td>Magali Cardozo</td>
   </tr>
 </table>
 
