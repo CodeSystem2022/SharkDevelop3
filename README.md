@@ -66,7 +66,7 @@
     <td>Alejandra Carballeira</td>
   </tr>
    <tr>
-    <td>Semana <10/td>
+    <td>Semana 10</td>
     <td>Magali Cardozo</td>
   </tr>
 </table>
