@@ -59,6 +59,15 @@ class PersonaDAO:
 
 
 if __name__ == '__main__':
+    # Insertar un registro
+    persona1 = Persona(nombre='Pedro', apellido='Romero', email='promero@mail.com')
+    personas_insertadas = PersonaDAO.insertar(persona1)
+    log.debug(f'Personas insertadas: {personas_insertadas}')
+
+    # Selleccionar objetos
+    personas= PersonaDAO.seleccionar()
+    for persona in personas:
+        log.debug(persona)
     # eliminar un registro
     persona1 = Persona(id_persona=14)
     personas_eliminadas = PersonaDAO.eliminar(persona1)
