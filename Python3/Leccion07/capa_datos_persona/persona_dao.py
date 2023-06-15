@@ -5,7 +5,7 @@ from logger_base import log
 
 class PersonaDAO:
     """
-    DAO significa: Data Acces Object
+    DAO significa: Data Access Object
     CRUD:
         -Create: Insertar,
         -Read: Seleccionar,
@@ -29,16 +29,6 @@ class PersonaDAO:
                     persona = Persona(registro[0], registro[1], registro[2],registro[3])
                     personas.append(persona)
                 return personas
-    @classmethod
-    def actualizar(cls, persona):
-        with Conexion.obtenerConexion():
-            with Conexion.obtenerCursor() as cursor:
-                valores = (persona.nombre, persona.apellido, persona.email, persona.id_persona)
-                cursor.execute(cls._ACTUALIZAR, valores)
-                log.debug(f'Persona actualizada: {persona}')
-                return cursor.rowcount
-
-
 
     @classmethod
     def insertar(cls, persona):
@@ -49,19 +39,42 @@ class PersonaDAO:
                 log.debug(f'Persona Insertada: {persona}')
                 return cursor.rowcount
 
+    @classmethod
+    def actualizar(cls, persona):
+        with Conexion.obtenerConexion():
+            with Conexion.obtenerCursor() as cursor:
+                valores = (persona.nombre, persona.apellido, persona.email, persona.id_persona)
+                cursor.execute(cls._ACTUALIZAR, valores)
+                log.debug(f'Persona actualizada: {persona}')
+                return cursor.rowcount
+
+    @classmethod
+    def eliminar(cls, persona):
+        with Conexion.obtenerConexion():
+            with Conexion.obtenerCursor() as cursor:
+                valores = (persona.id_persona,)
+                cursor.execute(cls._ELIMINAR, valores)
+                log.debug(f'Los valores eliminados son: {persona}')
+                return cursor.rowcount
+
 
 if __name__ == '__main__':
-    # Actualizar un registro
-    persona1 = Persona(4, 'Juan Jose', 'Pena', 'jjpena@email.com')
-    personas_actualizadas = PersonaDAO.actualizar(persona1)
-    log.debug(f'Personas actualizadas: {personas_actualizadas}')
+    # eliminar un registro
+    persona1 = Persona(id_persona=14)
+    personas_eliminadas = PersonaDAO.eliminar(persona1)
+    log.debug(f'Personas eliminadas {personas_eliminadas}')
 
-    # Insertar un registro
-    '''persona2 = Persona(nombre='Roxana', apellido='Romero', email='romer1@mail.com')
-    personas_insertadas = PersonaDAO.insertar(persona2)
-    log.debug(f'Personas insertadas: {personas_insertadas}')'''
+    #Actualizar un registro
+    #persona1 = Persona(1, 1, 'Pena', 'jjpena@email.com')
+    #personas_actualizadas = PersonaDAO.actualizar(persona1)
+    #log.debug(f'Personas actualizadas: {personas_actualizadas}')
+
+    #_Insertar un registro
+    #persona2 = Persona(nombre='Roxana', apellido='Romero', email='romer1@mail.com')
+    #personas_insertadas = PersonaDAO.insertar(persona2)
+    #log.debug(f'Personas insertadas: {personas_insertadas}')
 
     # Seleccionar objetos
-    personas = PersonaDAO.seleccionar()
-    for persona in personas:
-        log.debug(persona)
+  #  personas = PersonaDAO.seleccionar()
+  #  for persona in personas:
+  #      log.debug(persona)

@@ -165,3 +165,133 @@
 05:34:46 PM:DEBUG [conexion.py:37] Se sabrio correctamente el cursor: <cursor object at 0x000002793F87A960; closed: 0>
 05:38:37 PM:DEBUG [conexion.py:24] Conexion exitosa: <connection object at 0x000001D6EC39A680; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
 05:38:37 PM:DEBUG [conexion.py:37] Se sabrio correctamente el cursor: <cursor object at 0x000001D6EC3EA960; closed: 0>
+10:38:30 PM:DEBUG [conexion.py:24] Conexion exitosa: <connection object at 0x00000239D70CA680; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10:38:30 PM:DEBUG [conexion.py:37] Se sabrio correctamente el cursor: <cursor object at 0x00000239D711A960; closed: 0>
+10:38:30 PM:DEBUG [persona_dao.py:57] Los valores eliminados son: 
+        Id Persona: 14,
+        Nombre:     None,
+        Apellido:   None,
+        Email:      None
+        
+10:38:30 PM:DEBUG [persona_dao.py:65] Personas eliminadas 0
+10:44:13 PM:DEBUG [conexion.py:24] Conexion exitosa: <connection object at 0x000002322E34A570; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10:44:14 PM:DEBUG [conexion.py:37] Se sabrio correctamente el cursor: <cursor object at 0x000002322E386A40; closed: 0>
+10:44:14 PM:DEBUG [persona_dao.py:80] 
+        Id Persona: 1,
+        Nombre:     Juan,
+        Apellido:   Roldan,
+        Email:      roldanjuanQmail.com
+        
+10:44:14 PM:DEBUG [persona_dao.py:80] 
+        Id Persona: 2,
+        Nombre:     Carla,
+        Apellido:   Gomez,
+        Email:      CGomez@mail.com
+        
+10:44:14 PM:DEBUG [persona_dao.py:80] 
+        Id Persona: 8,
+        Nombre:     Carlos,
+        Apellido:   Lara,
+        Email:      clara@mail.com
+        
+10:44:14 PM:DEBUG [persona_dao.py:80] 
+        Id Persona: 9,
+        Nombre:     Marcos,
+        Apellido:   Canto,
+        Email:      mcanto@mail.com
+        
+10:44:14 PM:DEBUG [persona_dao.py:80] 
+        Id Persona: 10,
+        Nombre:     Marcelo,
+        Apellido:   Cuenca,
+        Email:      cuencaM@mail.com
+        
+10:44:14 PM:DEBUG [persona_dao.py:80] 
+        Id Persona: 12,
+        Nombre:     Maria,
+        Apellido:   Esparza,
+        Email:      mesparza@mail.com
+        
+10:44:14 PM:DEBUG [persona_dao.py:80] 
+        Id Persona: 14,
+        Nombre:     Carlos,
+        Apellido:   Lara,
+        Email:      clara@mail.com
+        
+10:44:14 PM:DEBUG [persona_dao.py:80] 
+        Id Persona: 15,
+        Nombre:     Juanito,
+        Apellido:   Perez,
+        Email:      jprez@mail.com
+        
+10:44:14 PM:DEBUG [persona_dao.py:80] 
+        Id Persona: 16,
+        Nombre:     Alex,
+        Apellido:   Rojas,
+        Email:      arojas@mail.com
+        
+10:44:14 PM:DEBUG [persona_dao.py:80] 
+        Id Persona: 17,
+        Nombre:     Omero,
+        Apellido:   Ramos,
+        Email:      OmRamos1@mail.com
+        
+10:44:14 PM:DEBUG [persona_dao.py:80] 
+        Id Persona: 18,
+        Nombre:     Roxana,
+        Apellido:   Romero,
+        Email:      romer1@mail.com
+        
+10:45:19 PM:DEBUG [conexion.py:24] Conexion exitosa: <connection object at 0x00000184989DA680; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10:45:19 PM:DEBUG [conexion.py:37] Se sabrio correctamente el cursor: <cursor object at 0x0000018498A2A960; closed: 0>
+10:55:28 PM:DEBUG [conexion.py:24] Conexion exitosa: <connection object at 0x000001F225854AE0; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10:55:28 PM:DEBUG [conexion.py:37] Se abrio correctamente el cursor: <cursor object at 0x000001F2254F34C0; closed: 0>
+10:55:49 PM:DEBUG [conexion.py:24] Conexion exitosa: <connection object at 0x000001CCF74DA680; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10:55:49 PM:DEBUG [conexion.py:37] Se abrio correctamente el cursor: <cursor object at 0x000001CCF7546960; closed: 0>
+10:56:50 PM:DEBUG [conexion.py:24] Conexion exitosa: <connection object at 0x00000251D2B9A680; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10:56:50 PM:DEBUG [conexion.py:37] Se abrio correctamente el cursor: <cursor object at 0x00000251D2BEA960; closed: 0>
+10:56:50 PM:DEBUG [persona_dao.py:48] Persona actualizada: 
+        Id Persona: 1,
+        Nombre:     1,
+        Apellido:   Pena,
+        Email:      jjpena@email.com
+        
+10:56:50 PM:DEBUG [persona_dao.py:70] Personas actualizadas: 1
+10:58:43 PM:DEBUG [Persona.py:56] 
+        Id Persona: 1,
+        Nombre:     Juan,
+        Apellido:   Perez,
+        Email:      jperez@mail.com
+        
+10:58:43 PM:DEBUG [Persona.py:58] 
+        Id Persona: None,
+        Nombre:     Jose,
+        Apellido:   Lopez,
+        Email:      JPer@mail.com
+        
+10:58:43 PM:DEBUG [Persona.py:60] 
+        Id Persona: 1,
+        Nombre:     None,
+        Apellido:   None,
+        Email:      None
+        
+10:59:29 PM:DEBUG [conexion.py:24] Conexion exitosa: <connection object at 0x000001559424A680; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10:59:29 PM:DEBUG [conexion.py:37] Se abrio correctamente el cursor: <cursor object at 0x000001559429A960; closed: 0>
+11:00:45 PM:DEBUG [conexion.py:24] Conexion exitosa: <connection object at 0x000001F167B9A680; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+11:00:45 PM:DEBUG [conexion.py:37] Se abrio correctamente el cursor: <cursor object at 0x000001F167BEA960; closed: 0>
+11:00:45 PM:DEBUG [persona_dao.py:57] Los valores eliminados son: 
+        Id Persona: 14,
+        Nombre:     None,
+        Apellido:   None,
+        Email:      None
+        
+11:00:45 PM:DEBUG [persona_dao.py:65] Personas eliminadas 0
+11:02:56 PM:DEBUG [conexion.py:24] Conexion exitosa: <connection object at 0x000001A4FA1DA680; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+11:02:56 PM:DEBUG [conexion.py:37] Se abrio correctamente el cursor: <cursor object at 0x000001A4FA22A960; closed: 0>
+11:02:56 PM:DEBUG [persona_dao.py:57] Los valores eliminados son: 
+        Id Persona: 14,
+        Nombre:     None,
+        Apellido:   None,
+        Email:      None
+        
+11:02:56 PM:DEBUG [persona_dao.py:65] Personas eliminadas 0
