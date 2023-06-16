@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22a06850-ded3-4643-80e1-2eb584a70e6d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ManejoExcepciones1/src/aritmetica/Aritmetica.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManejoExcepciones1/src/aritmetica/Aritmetica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ManejoExcepciones1/src/excepciones/OperacionExcepcion.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManejoExcepciones1/src/excepciones/OperacionExcepcion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ManejoExcepciones1/src/test/TestExcepciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManejoExcepciones1/src/test/TestExcepciones.java" afterDir="false" />
-    </list>
+    <list default="true" id="22a06850-ded3-4643-80e1-2eb584a70e6d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,12 +28,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Magali/PycharmProjects/SharkDevelop3/Java3/Leccion08&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Magali/PycharmProjects/SharkDevelop3/Java3/Leccion10"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="TestExcepciones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.TestExcepciones" />
