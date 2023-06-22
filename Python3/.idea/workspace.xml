@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6849b1f-4dcf-4daf-b195-47a5aab42953" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leccion07/capa_datos_persona/capa_datos.log" beforeDir="false" afterPath="$PROJECT_DIR$/Leccion07/capa_datos_persona/capa_datos.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leccion07/capa_datos_persona/conexion.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leccion07/capa_datos_persona/conexion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leccion07/capa_datos_persona/persona_dao.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leccion07/capa_datos_persona/persona_dao.py" afterDir="false" />
-    </list>
+    <list default="true" id="d6849b1f-4dcf-4daf-b195-47a5aab42953" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,13 +25,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Magali/PycharmProjects/SharkDevelop3/Python3&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Magali/practicapy"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.persona_dao">
     <configuration name="Persona" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python3" />
