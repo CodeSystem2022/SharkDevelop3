@@ -90,7 +90,7 @@ public class EstudianteDAO{
         estudiantes.forEach(System.out::println);//lambda para imprimir
 
 
-        //Buscar por id
+        //Buscar por id.
         var estudiante1 = new Estudiante(1);
         System.out.println("Estudiante antes de la busqueda: "+estudiante1);
         var encontrado = estudianteDao.buscarEstudiantePorId(estudiante1);
