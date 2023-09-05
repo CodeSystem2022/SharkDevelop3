@@ -1,8 +1,8 @@
-package UTN;
+package UTN.presentacion;
 
 import UTN.conexion.Conexion;
 
-public class Main {
+public class SistemasEstudiantesApp {
     public static void main(String[] args) {
         var conexion = Conexion.getConnection();
         if (conexion != null)
